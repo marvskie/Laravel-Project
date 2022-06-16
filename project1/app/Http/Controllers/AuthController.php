@@ -1,10 +1,12 @@
 <?php
 
 namespace App\Http\Controllers;
+use Illuminate\Http\Request;
 use App\Models\User;
 use Carbon\Carbon;
-use Illuminate\Http\Request;
+
 use Auth;
+
 class AuthController extends Controller
 {
     public function signup(Request $request){
